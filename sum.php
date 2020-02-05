@@ -46,7 +46,6 @@ $text = '<p>Test paragraph.</p><!-- Comment --> <a href="#fragment">Other text</
 echo $text.PHP_EOL;
 echo strip_tags($text).PHP_EOL;
 
-
 //array_push・・・一つ以上の要素を配列の最後に追加する関数
 $stack = array("orange", "banana");
 print_r($stack).PHP_EOL;
@@ -66,5 +65,7 @@ print_r($result).PHP_EOL;
 //date・・・・指定された日時を任意の形式でフォーマットし、日付文字列を返す関数
 echo "today " . date('Y-m-d', time(0, 0, 0, 5, 6, 1234)).PHP_EOL;
 echo "today " . date('Y-m-d', mktime(0, 0, 0, 5, 6, 1234)).PHP_EOL;
+
+
 
 

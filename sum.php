@@ -66,3 +66,5 @@ print_r($result).PHP_EOL;
 //date・・・・指定された日時を任意の形式でフォーマットし、日付文字列を返す関数
 echo "today " . date('Y-m-d', time(0, 0, 0, 5, 6, 1234)).PHP_EOL;
 echo "today " . date('Y-m-d', mktime(0, 0, 0, 5, 6, 1234)).PHP_EOL;
+
+
